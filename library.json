@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "keywords": ["rgb", "ws2812", "led", "papilio"],
   "description": "RGB LED high-level API for Papilio FPGA accessed via papilio_wishbone_spi_master.",
+  "repository": "https://github.com/GadgetFactory/papilio_rgb_led",
   "authors": [
     { "name": "GadgetFactory" }
   ],
@@ -10,7 +11,7 @@
   "frameworks": ["arduino"],
   "platforms": ["espressif32"],
   "dependencies": {
-    "papilio_wishbone_spi_master": ">=0.1.0"
+    "GadgetFactory/papilio_wishbone_spi_master": ">=0.1.0"
   },
   "export": ["src/*.h", "src/*.cpp", "gateware/*"]
 }
